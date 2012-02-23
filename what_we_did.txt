@@ -1,0 +1,6 @@
+* I planned design
+    - map of india
+    - title "Darjeeling - Land of Thunderbolt" (with image of thundebolt?)
+    - scrolling does not move map
+* I created the web site (a file called darjeeling.html) containing
+  - a background image (this I created in Inkscape and saved as a bitmap)
