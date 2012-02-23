@@ -1,0 +1,39 @@
+body {
+    background-color: #baf;
+}
+
+#main {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+}
+
+#main img {
+    position: fixed; top: 0px; left: auto; right: auto;
+    margin-left: 100px;
+}
+
+.info {
+    width: 600px;
+    border: 5px rgba(255,255,255,1) solid; 
+    border-collapse: collapse; 
+    border-spacing: 0px; 
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    padding: 5px; 
+    color: #000; 
+    background-color: rgba(255, 255, 255,0.5);
+    margin-bottom: 100px;
+}
+
+.info_left {
+}
+
+.info_right {
+    margin-left: 400px;
+}
+
+.info h1 {
+    text-align:center; 
+}

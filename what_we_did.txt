@@ -1,6 +1,10 @@
-* I planned design
+* I planned the design
     - map of india
     - title "Darjeeling - Land of Thunderbolt" (with image of thundebolt?)
     - scrolling does not move map
-* I created the web site (a file called darjeeling.html) containing
+* I created the web site (a text file called darjeeling.html).  
+Inside this file are instructions for how to make the website.  
+The web brower on the computer uses these instructions to make the page.
+
+Contained in the web page are
   - a background image (this I created in Inkscape and saved as a bitmap)
