@@ -6,12 +6,35 @@ body {
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 200px;
+    padding-top: 250px;
 }
 
-#main img {
+#toc {
+    width:800px;
+    position: fixed; top: 200px; left: auto; right: auto;
+    background-color: #baf;
+    padding:25px;
+}
+
+#toc ul {
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+}
+
+#toc li {
+    float: left;
+    margin-right: 2em;
+    bullet: none;
+}
+
+.bg_img {
     position: fixed; top: 0px; left: auto; right: auto;
     margin-left: 100px;
+}
+
+#title_img {
+    background-color: #baf;
 }
 
 .info {
