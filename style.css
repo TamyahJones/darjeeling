@@ -11,8 +11,9 @@ body {
 
 #toc {
     width:800px;
-    position: fixed; top: 200px; left: auto; right: auto;
-    padding:25px;
+    position: fixed; top: 150px; left: auto; right: auto;
+    padding:10px;
+    z-index:3;
 }
 
 #toc ul {
@@ -26,14 +27,17 @@ body {
     margin-right: 2em;
     bullet: none;
 }
-
+.panel {
+    position:relative;
+    top: -300px;
+}
 .bg_img {
     position: fixed; top: 0px; left: auto; right: auto;
     margin-left: 100px;
 }
 
 #title_img {
-    /*background-color: #baf;*/
+    background-color: #baf;
 }
 
 .info {
