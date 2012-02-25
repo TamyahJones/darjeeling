@@ -6,13 +6,12 @@ body {
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 250px;
+    padding-top: 300px;
 }
 
 #toc {
     width:800px;
     position: fixed; top: 200px; left: auto; right: auto;
-    background-color: #baf;
     padding:25px;
 }
 
@@ -34,7 +33,7 @@ body {
 }
 
 #title_img {
-    background-color: #baf;
+    /*background-color: #baf;*/
 }
 
 .info {
