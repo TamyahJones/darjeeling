@@ -11,7 +11,7 @@ body {
 
 #toc {
     width:800px;
-    position: fixed; top: 150px; left: auto; right: auto;
+    position: fixed; top: 170px; left: auto; right: auto;
     padding:10px;
     z-index:3;
 }
@@ -29,7 +29,7 @@ body {
 }
 .panel {
     position:relative;
-    top: -300px;
+    top: -250px;
 }
 .bg_img {
     position: fixed; top: 0px; left: auto; right: auto;
@@ -38,6 +38,7 @@ body {
 
 #title_img {
     background-color: #baf;
+z-index:2;
 }
 
 .info {
