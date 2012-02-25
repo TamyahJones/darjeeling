@@ -1,5 +1,5 @@
 body {
-    background-color: #baf;
+    background-color: #aaf;
 }
 
 #main {
@@ -31,18 +31,30 @@ body {
     position:relative;
     top: -250px;
 }
+
+#header {
+    width:1000px;
+    position: fixed; top: 0px; left: auto; right: auto;
+    background-color: #aaf;
+    z-index:2;
+
+-moz-box-shadow:    0px 0px 5px 10px #aaf;
+  -webkit-box-shadow: 0px 0px 5px 10px #aaf;
+  box-shadow:         0px 0px 5px 10px #aaf;
+
+}
+
+#header img {
+    margin-left:100px;
+}
+
 .bg_img {
     position: fixed; top: 0px; left: auto; right: auto;
     margin-left: 100px;
 }
 
-#title_img {
-    background-color: #baf;
-z-index:2;
-}
-
 .info {
-    width: 600px;
+    width: 500px;
     border: 5px rgba(255,255,255,1) solid; 
     border-collapse: collapse; 
     border-spacing: 0px; 
