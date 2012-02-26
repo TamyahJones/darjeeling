@@ -45,7 +45,7 @@ body {
 }
 
 #toc a:hover {
-    color:rgba(0,0,128,0.4);
+    color:rgba(0,0,128,0.2);
 }
 
 #toc ul {
@@ -75,8 +75,9 @@ body {
     -moz-border-radius: 15px;
     padding: 10px;
     color: #000;
-    background-color: rgba(255, 255, 255,0.5);
+    background-color: rgba(255, 255, 255,0.8);
     margin-bottom: 100px;
+    font-size:1.2em;
 }
 
 .info_anchor {
