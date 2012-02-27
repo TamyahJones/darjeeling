@@ -1,5 +1,5 @@
 body {
-    background-color: #6698FF;
+    background-color: #488ac7;
 }
 
 #main {
@@ -17,13 +17,13 @@ body {
     left: 0;
     right: 0;
 
-    background-color: white; /*#6698FF;*/
+    background-color: white;
     -moz-box-shadow:    0px 0px 5px 10px white;
     -webkit-box-shadow: 0px 0px 5px 10px white;
     box-shadow:         0px 0px 5px 10px white;
 }
 
-#title_img {
+#header img {
     position: absolute;
     top:-150px;
     left: 50%;
@@ -34,7 +34,7 @@ body {
 #toc {
     width:1200px;
     position: fixed; top: 200px; left: auto; right: auto;
-    padding-right:10px;
+    padding-right:5px;
     z-index:3;
     font-size:2em;
 }
@@ -56,7 +56,7 @@ body {
 
 #toc li {
     float: left;
-    margin-right: 2em;
+    margin-right: 1.5em;
     bullet: none;
 }
 
@@ -80,11 +80,20 @@ body {
     font-size:1.2em;
 }
 
+.info a {
+    text-decoration: none;
+    color:rgb(0,0,128);
+}
+
+.info a:hover {
+    color:rgba(0,0,128,0.2);
+}
+
+
 .info_anchor {
     position:relative;
     top: -320px;
 }
-
 
 .info_left {
 }
@@ -98,6 +107,9 @@ body {
     text-align:center;
     font-size:2em;
     margin-bottom:1em;
+}
+.info li {
+    margin: 5px;
 }
 
 #footer{
