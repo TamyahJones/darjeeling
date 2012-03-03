@@ -112,8 +112,11 @@ body {
     margin: 5px;
 }
 
-#footer{
-    color: rgba(0,0,0,0.5);
+#footer {
     padding: 20px;
     text-align: center;
+}
+
+#footer a {
+    color: rgba(0,0,0,0.5);
 }
